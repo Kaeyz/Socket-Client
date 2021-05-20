@@ -1,10 +1,11 @@
 import React from "react";
+import Theme from "./theme";
 
 const App = () => {
 	return (
-		<div>
-			Welcome to sockettia
-		</div>
+		<Theme>
+			Welcome to socketia
+		</Theme>
 	);
 };
 
