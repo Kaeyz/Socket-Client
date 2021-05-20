@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
 		width: 100%;
 		height: 100vh;
 		font-size: 0.8rem;
-		background-color: ${props => props.theme.color.dark};
+		background-color: ${props => props.theme.color.background};
+		color: ${props => props.theme.color.text};
 	}
 	div, span {
 		margin: 0;
@@ -26,27 +27,22 @@ const GlobalStyle = createGlobalStyle`
 	h1 {
 		font-size: calc(0.4rem + 1.5em);
 		font-weight: 600;
-		color: ${props => props.theme.color.darkText};
 	}
 	h2 {
 		font-size: calc(0.4rem + 1.4em);
 		font-weight: 600;
-		color: ${props => props.theme.color.darkText};
 	}
 	h3 {
 		font-size: calc(0.4rem + 1.3em);
 		font-weight: 600;
-		color: ${props => props.theme.color.darkText};
 	}
 	h4 {
 		font-size: calc(0.4rem + 1em);
 		font-weight: 600;
-		color: ${props => props.theme.color.darkText};
 	}
 	h5 {
 		font-size: calc(0.4rem + 0.9em);
 		font-weight: 600;
-		color: ${props => props.theme.color.darkText};
 	}
 	h6 {
 		font-size: calc(0.4rem + 0.4em);
@@ -63,15 +59,6 @@ const GlobalStyle = createGlobalStyle`
 		&:hover {
 			color: ${props => props.theme.color.primary}BB;
 		}
-	}
-	.text-decoration-none {
-		text-decoration: none;
-	}
-	.no-overflow {
-		overflow: hidden !important;
-	}
-	.no-padding {
-		padding: 0 !important;
 	}
 	.pointer {
 		cursor: pointer;
