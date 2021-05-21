@@ -60,13 +60,18 @@ const GlobalStyle = createGlobalStyle`
 		font-size: 1rem;
 		outline: none;
 	}
+	textarea {
+		min-width: 20rem;
+		min-height: 10rem;
+	}
 	
 	button {
 		background-color: ${props => props.theme.color.background};
 		color: ${props => props.theme.color.text};
 		border: 0.5px solid green;
-		outline: none;
+		min-height: 2rem;
 		cursor: pointer;
+		outline: none;
 	}
 `;
 
