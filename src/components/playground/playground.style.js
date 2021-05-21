@@ -14,9 +14,10 @@ export default styled.div`
     width: 50vw;
     min-width: 25rem;
     padding: 0.5rem;
-    min-height: 45vh;
+    min-height: 85vh;
     @media only screen and (max-width: 799px) {
       min-width: 100vw;
+      min-height: 45vh;
     }
   }
 `;

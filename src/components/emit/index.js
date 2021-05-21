@@ -11,7 +11,7 @@ const Emit = () => {
 			<br />
 			<p>data</p>
 			<textarea>{`{
-  "data": "sample data"
+ "data": "sample data"
 }`}
 			</textarea>
 			<br />
