@@ -52,15 +52,20 @@ const GlobalStyle = createGlobalStyle`
 		font-size: calc(0.4rem + 0.5em);
 		font-weight: 500;
 	}
-	a {
-		color: ${props => props.theme.color.primary};
-		text-decoration: none;
-		&:focus,
-		&:hover {
-			color: ${props => props.theme.color.primary}BB;
-		}
+	input {
+		background-color: ${props => props.theme.color.background};
+		color: ${props => props.theme.color.text};
+		border: 0.5px solid green;
+		padding: 0.5rem;
+		font-size: 1rem;
+		outline: none;
 	}
-	.pointer {
+	
+	button {
+		background-color: ${props => props.theme.color.background};
+		color: ${props => props.theme.color.text};
+		border: 0.5px solid green;
+		outline: none;
 		cursor: pointer;
 	}
 `;
